@@ -1,0 +1,4 @@
+﻿Add the condition that needs to be met to continue the loop
+"While" needs a condition to determine how long a loop should run.
+Add an expression enclosed in parenthesis. This expression should evaluate to $true or $false. 
+If the condition is $true, then the loop continues. Else, it ends.

@@ -1,0 +1,11 @@
+Add a condition and a scriptblock.
+An If statement needs two things: a <bold>condition</bold>, and a <bold>scriptblock</bold>.
+The condition determines when the scriptblock should execute. It is enclosed in parenthesis.
+A scriptblock is enclosed in braces and contains the script code to execute when the condition evaluates to $true.
+
+An If statement looks like this:
+
+If ($value -eq 123) 
+{
+  'Executing when $value contains the value 123'
+}

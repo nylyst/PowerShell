@@ -1,0 +1,50 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+    <Snippets  xmlns='http://schemas.microsoft.com/PowerShell/Snippets'>
+        <Snippet Version='1.0.0'>
+            <Header>
+                <Title>Simple Region</Title>
+                <Description>inserts Region structure</Description>
+                <Shortcut>region</Shortcut> 
+                <Keywords>ScriptBlock</Keywords>
+                <Author>Tobias Weltner</Author>
+                <DifficultyLevel>2</DifficultyLevel>
+                <Example>False</Example>
+                <SnippetTypes>
+                    <SnippetType>Expansion</SnippetType>
+                    <SnippetType>SurroundsWith</SnippetType>
+                </SnippetTypes>
+                <Requirements>
+                    <MinimumPowerShellVersion>1</MinimumPowerShellVersion>
+                    <RequiredModules></RequiredModules>
+                    <AdminPrivileges>False</AdminPrivileges>
+                    <ProcessorArchitecture>x86,x64</ProcessorArchitecture>
+                </Requirements>
+            </Header>
+            <Declarations>
+                <Literal>
+                   <ID><![CDATA[8;4;0]]></ID>
+                   <Default></Default>
+                   <ToolTip><![CDATA[Name]]></ToolTip>
+                   <ToolTipStatusbar><![CDATA[Name]]></ToolTipStatusbar>
+                </Literal>
+                <Literal>
+                   <ID><![CDATA[18;8;0]]></ID>
+                   <Default></Default>
+                   <ToolTip><![CDATA[Content]]></ToolTip>
+                   <ToolTipStatusbar><![CDATA[Content]]></ToolTipStatusbar>
+                   <EncloseSelection>true</EncloseSelection>
+                </Literal>
+            </Declarations>
+
+
+            <Code>
+                <Script Language='PowerShell' CaretOffset='0'>
+                    <![CDATA[#region test
+    #Content
+#endregion
+]]>
+                </Script>
+            </Code>
+
+    </Snippet>
+</Snippets>

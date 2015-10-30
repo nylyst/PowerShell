@@ -1,0 +1,14 @@
+Add the value to compare, enclosed in parenthesis.
+A switch statement compares a value against a number of reference values.
+At minimum, add the value you want to test.
+Then, add one or more values to test against.
+
+Here is an example:
+
+switch ($test)
+{
+    1				{ 'One' }
+    2				{ 'Two' }
+    { $_ -gt 6 }		{ 'greater than 6' }
+    default			{ 'none of the above' }
+}

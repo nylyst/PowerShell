@@ -1,0 +1,2 @@
+obsolete
+use at least PowerShell 2

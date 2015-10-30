@@ -1,0 +1,4 @@
+﻿Specify a number between 1 and 5
+The version number is the <bold>minimum</bold> PowerShell version required to run this script. If your code runs in all PowerShell versions, use version 1, or do not specify a version requirement at all.
+
+There are currently 5 PowerShell versions available. You can specify subversions as well (like 1.5), but since there are no public PowerShell subversions, this is reserved for future use.

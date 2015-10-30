@@ -1,0 +1,6 @@
+Add closing quote.
+A string is delimited by either single or double quotes.
+The string is missing the ending quote.
+
+Take a look at the <bold>start</bold> of the red squiggle line. This is where the text starts.
+Now, identify where you want the text to end, and add a matching quote.

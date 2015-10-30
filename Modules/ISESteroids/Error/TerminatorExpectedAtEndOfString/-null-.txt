@@ -1,0 +1,8 @@
+﻿Add closing quote
+Quotes enclose text. You are missing the closing quote.
+
+Take a look at the <bold>start</bold> of the squiggle line. This is where your text starts. Then place the closing quote where you want the text to end.
+
+Or, remove the quote at the beginning of the squiggle line if it was just an accident.
+
+Note that text can span multiple lines. If you want a quote to appear inside your text, make sure you escape the quote. Else, PowerShell may be confused and treat the quote as end-of-text.

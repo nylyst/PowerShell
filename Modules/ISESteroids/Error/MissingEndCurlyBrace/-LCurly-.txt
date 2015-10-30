@@ -1,0 +1,12 @@
+﻿Add closing curly brace
+Your code has an open curly brace, but no matching closing curly brace.
+Either remove the opening curly brace, or add a closing brace.
+
+Curly braces are used to "transport" PowerShell code to someone.
+You can hand over PowerShell code to a command, for example.
+Or you can assign code to a function, or an If clause.
+
+In all of these cases, the code is enclosed in braces. Braces make sure the code is not executed.
+Instead, the receiver of your code decides when and how often the code executes.
+
+Code enclosed in curly braces is called a "scriptblock".

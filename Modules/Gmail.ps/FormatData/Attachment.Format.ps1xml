@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>Gmail.ps::attachment</Name>
+      <ViewSelectedBy>
+        <TypeName>AE.Net.Mail.Attachment</TypeName>
+      </ViewSelectedBy>
+      <WideControl>
+        <WideEntries>
+            <WideEntry>
+                <WideItem>
+                     <PropertyName>Filename</PropertyName>
+                </WideItem>
+            </WideEntry>
+        </WideEntries>
+      </WideControl>
+    </View>
+
+  </ViewDefinitions>
+</Configuration>

@@ -1,0 +1,2 @@
+ships with Windows 10
+available as Preview for Windows 8.1 and Server 2012R2

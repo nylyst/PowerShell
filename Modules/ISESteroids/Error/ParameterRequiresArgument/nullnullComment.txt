@@ -1,0 +1,14 @@
+﻿Stick to legal #requires options
+A #requires statement dicatates which requirements must be met before a script can run. #requires can contain <bold>one or more of the following parameters</bold>:
+
+-RunAsAdministrator
+-Version 2
+-Modules ActiveDirectory, PrintManagement
+-PSSnapin VMWare
+-ShellID PowerShell_ISE
+
+There are no other supported parameters, and specifying a non-supported parameter raises a syntax error.
+
+You can have multiple #requires statements in your scirpt. However, each option can only be defined once in your script.
+
+Note that #requires will be enforced only in scripts. "Untitled" documents are no scripts, and #requires statements do nothing.

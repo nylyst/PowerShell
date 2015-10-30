@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+    <Snippets  xmlns='http://schemas.microsoft.com/PowerShell/Snippets'>
+        <Snippet Version='1.0.0'>
+            <Header>
+                <Title>function1</Title>
+                <Description>a very simple function body</Description>
+                <Shortcut>func1</Shortcut> 
+                <Keywords>ScriptBlock</Keywords>
+                <Author>Tobias</Author>
+                <DifficultyLevel>1</DifficultyLevel>
+                <Example>False</Example>
+                <SnippetTypes>
+                    <SnippetType>Expansion</SnippetType>
+                    <SnippetType>SurroundsWith</SnippetType>
+                </SnippetTypes>
+                <Requirements>
+                    <MinimumPowerShellVersion>1</MinimumPowerShellVersion>
+                    <RequiredModules></RequiredModules>
+                    <AdminPrivileges>False</AdminPrivileges>
+                    <ProcessorArchitecture>x86,x64</ProcessorArchitecture>
+                </Requirements>
+            </Header>
+            <Declarations>
+                <Literal>
+                   <ID><![CDATA[9;13;0]]></ID>
+                   <Default></Default>
+                   <ToolTip><![CDATA[Name of function]]></ToolTip>
+                   <ToolTipStatusbar><![CDATA[Name of function]]></ToolTipStatusbar>
+                </Literal>
+                <Literal>
+                   <ID><![CDATA[31;26;0]]></ID>
+                   <Default></Default>
+                   <ToolTip><![CDATA[Function Body]]></ToolTip>
+                   <ToolTipStatusbar><![CDATA[Function Body]]></ToolTipStatusbar>
+                   <EncloseSelection>true</EncloseSelection>
+                </Literal>
+            </Declarations>
+
+
+            <Code>
+                <Script Language='PowerShell' CaretOffset='64'>
+                    <![CDATA[function Get-Something
+{
+    # Place Function Body Here
+
+}
+]]>
+                </Script>
+            </Code>
+
+    </Snippet>
+</Snippets>

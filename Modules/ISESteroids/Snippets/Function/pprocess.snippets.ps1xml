@@ -1,0 +1,34 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+    <Snippets  xmlns='http://schemas.microsoft.com/PowerShell/Snippets'>
+        <Snippet Version='1.0.0'>
+            <Header>
+                <Title>pprocess</Title>
+                <Description>adds process block</Description>
+                <Shortcut>pr</Shortcut> 
+                <Keywords>ScriptBlock</Keywords>
+                <Author>Tobias</Author>
+                <DifficultyLevel>4</DifficultyLevel>
+                <Example>False</Example>
+                <SnippetTypes>
+                    <SnippetType>Expansion</SnippetType>
+                </SnippetTypes>
+                <Requirements>
+                    <MinimumPowerShellVersion>1</MinimumPowerShellVersion>
+                    <RequiredModules></RequiredModules>
+                    <AdminPrivileges>False</AdminPrivileges>
+                    <ProcessorArchitecture>x86,x64</ProcessorArchitecture>
+                </Requirements>
+            </Header>
+
+            <Code>
+                <Script Language='PowerShell' CaretOffset='14'>
+                    <![CDATA[process
+{
+  
+
+}]]>
+                </Script>
+            </Code>
+
+    </Snippet>
+</Snippets>

@@ -1,0 +1,3 @@
+ships with the RSAT tools from Microsoft
+On clients, after installing RSAT, make sure you enable the Windows Feature "Active Directory PowerShell Module"
+On servers, use Add-WindowsFeature to add the Active Directory PowerShell module

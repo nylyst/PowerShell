@@ -1,0 +1,3 @@
+DSC (Desired State Configuration) can manage the state of computers.
+DSC introduces the "Configuration" keyword.
+Configurations can be turned into MOF files, and MOF files can be pushed or pulled to configure computers.

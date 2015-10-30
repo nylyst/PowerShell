@@ -1,0 +1,4 @@
+﻿Upgrade to PowerShell 5 or better
+Class support is introduced in PowerShell 5 and cannot be used with this version of PowerShell.
+
+To use classes and the "class" keyword, upgrade to PowerShell 5 or better.

@@ -1,0 +1,2 @@
+ships with Windows 8.1 and Server 2012R2
+available as free upgrade for Windows 7/Server 2008 or better

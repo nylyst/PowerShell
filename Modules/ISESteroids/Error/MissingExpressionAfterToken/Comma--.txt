@@ -1,0 +1,7 @@
+﻿Remove comma, or add value
+A comma is used to define an array with multiple values.
+There has to be a value following a comma.
+
+Here are some examples:
+1,2,3,4
+'Hello','World'

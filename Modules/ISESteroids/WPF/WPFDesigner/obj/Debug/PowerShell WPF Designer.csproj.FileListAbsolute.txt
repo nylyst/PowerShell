@@ -1,0 +1,12 @@
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\bin\Debug\WPFDesigner.exe.config
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\bin\Debug\WPFDesigner.exe
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\bin\Debug\WPFDesigner.pdb
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\PowerShell WPF Designer.csprojResolveAssemblyReference.cache
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\MainWindow.baml
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\App.g.cs
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\WPFDesigner_MarkupCompile.cache
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\WPFDesigner.g.resources
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\WPFDesigner.Properties.Resources.resources
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\PowerShell WPF Designer.csproj.GenerateResource.Cache
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\WPFDesigner.exe
+C:\Users\Tobias\Documents\ISEProject\WPFTestProject2\WPFDesigner\WPFDesigner\obj\Debug\WPFDesigner.pdb

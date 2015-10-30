@@ -1,0 +1,2 @@
+Workflows interact with the Windows Workflow Engine and provide an alternative to PowerShell functions for long-running tasks.
+Workflows use the keyword "workflow".

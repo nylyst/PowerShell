@@ -1,0 +1,62 @@
+<ISESteroidsLanguage DisplayName="VBScript" FileExtension=".vbs" LanguageDefinitionVersion="1.0">
+
+<StaticToken TokenType="Command" Case="Insensitive">
+  Erase Execute ExecuteGlobal Abs Array Asc Atn CBool CByte CCur CDate CDbl Chr CInt CLng Cos CreateObject CSng CStr Date DateAdd DateDiff DatePart DateSerial DateValue Day Eval Exp Filter Fix FormatCurrency FormatDateTime FormatNumber FormatPercent GetObject GetRef Hex Hour InputBox InStr InStrRev Int IsArray IsDate IsEmpty IsNull IsNumeric IsObject Join LBound LCase Left Len LoadPicture Log LTrim Mid Minute Month MonthName MsgBox Now Oct Randomize Replace RGB Right Rnd Round RTrim ScriptEngine ScriptEngineBuildVersion ScriptEngineMajorVersion ScriptEngineMinorVersion Second  Sgn Sin Space Split Sqr StrComp String StrReverse Tan Time Timer TimeSerial TimeValue Trim TypeName UBound UCase VarType WeekDay WeekDayName Year 
+</StaticToken>
+
+<StaticToken TokenType="Keyword" Case="Insensitive">
+  As Empty Stop In Step Const Call Case Const Dim Error Resume Explicit New Nothing GetLocale And Or Not Goto Local On Option ReDim To WScript Then Next SetLocale false true While Wend Do
+</StaticToken>
+
+<StaticToken WordBoundary="false" TokenType="Operator" Case="Insensitive">
+<![CDATA[
+& , ( ) [ ] + - * / = < >
+]]>
+</StaticToken>
+
+<StaticToken TokenType="Variable" Case="Insensitive">
+  Null Err vbOKOnly  vbOKCancel  vbAbortRetryIgnore  vbYesNoCancel  vbYesNo  vbRetryCancel  vbCritical vbQuestion vbExclamation vbInformation vbDefaultButton1 vbDefaultButton2 vbDefaultButton3 vbDefaultButton4 vbApplicationModal vbSystemModal vbOK vbCancel vbAbort vbRetry vbIgnore vbYes vbNo vbBlack vbRed vbGreen vbYellow vbBlue vbMagenta vbCyan vbWhite vbBinaryCompare vbTextCompare  vbSunday vbMonday vbTuesday vbWednesday  vbThursday vbFriday vbSaturday vbUseSystemDayOfWeek vbFirstJan1 vbFirstFourDays vbFirstFullWeek vbGeneralDate  vbLongDate vbShortDate vbLongTime  vbShortTime vbObjectError vbCr VbCrLf vbFormFeed vbLf vbNewLine vbNullChar vbNullString vbTab vbVerticalTab  vbUseDefault vbTrue vbFalse vbEmpty vbNull  vbInteger vbLong vbSingle vbDouble vbCurrency vbDate vbString vbObject vbError vbBoolean vbVariant vbDataObject vbDecimal vbByte vbArray
+</StaticToken>
+
+<StaticToken TokenType="Keyword" Case="Insensitive">
+  If ElseIf Else End Select Function Sub Set Exit
+</StaticToken>
+
+<RegExToken LookBehind="\bDim\s{1,}" TokenType="Variable" Case="Insensitive" WordBoundary="false" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+
+<RegExToken LookBehind="\bSet\s{1,}" TokenType="Variable" Case="Insensitive" WordBoundary="false" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+<RegExToken LookBehind="\bConst\s{1,}" TokenType="Variable" Case="Insensitive" WordBoundary="false" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+<RegExToken LookAhead="\s{0,}=" LookBehind="(^|\s)" TokenType="Variable" Case="Insensitive" WordBoundary="false" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+<RegExToken LookBehind="\S\." TokenType="Member" Case="Insensitive">
+\w{1,}\s{0,}
+</RegExToken>
+<RegExToken TokenType="Number" Case="Insensitive">
+\d{1,}(\.\d{1,}){0,1}
+</RegExToken>
+<RegExToken LookBehind="(^|\s)" LookAhead="\s{0,}\(" TokenType="Command" Case="Insensitive">
+\w{1,}
+</RegExToken>
+<RegExToken LookBehind="^\s{0,}sub\s{1,}" LookAhead="\s{0,}(\(|$)" TokenType="Command" Case="Insensitive" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+<RegExToken LookBehind="^\s{0,}function\s{1,}" LookAhead="\s{0,}(\(|$)" TokenType="Command" Case="Insensitive" MarkSiblings="True">
+\w{1,}
+</RegExToken>
+<RegionToken Childs="false" TokenType="Comment" Case="Insensitive" Collapsible="false">
+<Start WordBoundary="false">'</Start>
+<End>{LineEnd}</End>
+</RegionToken>
+<RegionToken Childs="false" TokenType="String" Case="Insensitive" Collapsible="false">
+<Start WordBoundary="false">"</Start>
+<End WordBoundary="false">"</End>
+</RegionToken>
+
+</ISESteroidsLanguage>

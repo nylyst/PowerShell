@@ -1,0 +1,10 @@
+﻿Add loop information
+A for loop needs a start and end value and an increment.
+This information is added in parenthesis.
+Here is an example:
+
+for($x = 1; $x -le 10; x+=2)
+{
+  "Counting from 1 to 10 in steps of 2"
+  "Currently at $x"
+}

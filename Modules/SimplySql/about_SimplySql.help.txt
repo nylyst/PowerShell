@@ -1,0 +1,68 @@
+﻿TOPIC
+    about_SimplySql
+
+SHORT DESCRIPTION
+    SimplySql: "Talking to databases (Sql Server, SQLite, Oracle & PostGreSql)
+		the PowerShell way; simple commands... powerful opportunities."
+
+LONG DESCRIPTION
+    SimplySql is a module that provides an intuitive set of cmdlets for talking
+	to databases that abstracts the vendor specifics, allowing you to focus on
+	getting work done.
+
+	The basic pattern is to connect to a database, execute one or more sql
+	statements and then close your database connection.  This module provides
+	cmdlets that map to this basic pattern.
+
+	Open/Close/Show/Test -SqlConnection
+		These cmdlets (Open/Close) enable you to connect to databases in
+		straightforward terms without worrying about differences between
+		database vendors.
+		Show/Test cmdlets allow you to see what connections are currently
+		active in your powershell session and see specific details about
+		those connections.
+
+	Invoke- SqlScalar/SqlQuery/SqlUpdate
+		These cmdlets allow you to execute sql statements against the database
+		connections that you have opened.  Any type of statement can be used
+		with any cmdlet, but the output is tailored to specific types of
+		activity.  Scalar is great for returning a single value, Query is used
+		for returning one or more result sets (output is datarow for single
+		resultset and table for multiple resultsets), Update is used for making
+		modifications (insert, update, delete, etc) and its output is the
+		number of rows effected.
+	
+	Get-SqlMessage
+		This cmdlet allows you to retrieve the information messages that may
+		have been generated during the last Invoke-Sql* call (except 
+		Invoke-SqlBulkCopy).  The messages are timestamped to when they were
+		generated and the list is cleared at each Invoke-Sql* call.
+
+	Invoke-SqlBulkCopy
+		This is intended to make moving data from one connection to another
+		connection (even cross vendor) simple.  This is highly optimized
+		for destination connections that are SQL Server or SQLite.  It uses
+		a simpler optmization for Oracle and PostGre.  Unfortunately neither
+		Npgsql or ODP.net have an optimized bulkcopy class to leverage.  So
+		for these implementations we merely batch up the inserts into a
+		transaction instead of inserting one by one.
+
+	Start/Complete/Undo -SqlTransaction
+		These cmdlets provide a simple way to wrap Invoke-Sql* (except for
+		SqlBulkCopy) into a transaction and then either commit or rollback.
+		Complete-SqlTransaction maps to COMMIT and Undo-SqlTransaction maps
+		to ROLLBACK.			
+
+EXAMPLES
+    Examples of how to use the module or how the subject feature works in practice.
+
+KEYWORDS
+    Sql Server, Oracle, PostGre, SQLite
+
+SEE ALSO
+    PostGreSql implemented with Npgsql 
+		https://github.com/npgsql/npgsql/wiki/User-Manual
+	Oracle implemented with ODP.Net (managed)
+		http://www.oracle.com/technetwork/topics/dotnet/index-085163.html
+	SQLite implemented with System.Data.SQLite
+		https://system.data.sqlite.org

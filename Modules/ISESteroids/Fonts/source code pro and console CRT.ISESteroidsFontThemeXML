@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<FontTheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LiteralViewDisabled>true</LiteralViewDisabled>
+  <CommentFontName>Corbel</CommentFontName>
+  <CommentFontStyle />
+  <CommentFontStretch />
+  <CommentFontWeight />
+  <CommentFontSizeAdjustment>-4</CommentFontSizeAdjustment>
+  <NumberFontName>Courier New</NumberFontName>
+  <NumberFontStyle />
+  <NumberFontStretch />
+  <NumberFontWeight />
+  <NumberFontSizeAdjustment>0</NumberFontSizeAdjustment>
+  <CustomizeNumber>true</CustomizeNumber>
+  <StringFontName>anonymous_pro_i.ttf#Anonymous Pro</StringFontName>
+  <StringFontStyle />
+  <StringFontStretch />
+  <StringFontWeight />
+  <StringFontSizeAdjustment>-1.5</StringFontSizeAdjustment>
+  <CustomizeString>true</CustomizeString>
+  <ArgumentFontName>Courier New</ArgumentFontName>
+  <ArgumentFontStyle />
+  <ArgumentFontStretch />
+  <ArgumentFontWeight />
+  <ArgumentFontSizeAdjustment>0</ArgumentFontSizeAdjustment>
+  <CustomizeArgument>true</CustomizeArgument>
+  <CustomizeComment>true</CustomizeComment>
+  <LiteralViewDisabledOnEdit>false</LiteralViewDisabledOnEdit>
+  <CommentFontEmSize>0</CommentFontEmSize>
+  <FontFamilyVariableMonitor>c:\users\tobias\documents\iseproject\2.0.17.2\extensionvs_ise\iseaddontool3\bin\debug\fonts\bpdots</FontFamilyVariableMonitor>
+  <FontSizeVariableMonitor>12</FontSizeVariableMonitor>
+  <ShareFontForConsole>false</ShareFontForConsole>
+  <ScriptPaneFontFamily>sourcecodepro-light.ttf#Source Code Pro</ScriptPaneFontFamily>
+  <ScriptPaneFontSize>11</ScriptPaneFontSize>
+  <ConsolePaneFontFamily>bpdotsminusbold.otf#BPdotsMinus</ConsolePaneFontFamily>
+  <ConsolePaneFontSize>10</ConsolePaneFontSize>
+  <LineNumberMarginFontFamily>ptm55ft.ttf#PT Mono</LineNumberMarginFontFamily>
+  <FunctionReferenceSize>9</FunctionReferenceSize>
+  <FunctionReferenceFontFamily>luximr.ttf#Luxi Mono</FunctionReferenceFontFamily>
+  <SnippetFontFamily>Segoe UI</SnippetFontFamily>
+</FontTheme>

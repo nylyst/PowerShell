@@ -1,0 +1,10 @@
+<ISESteroidsLanguage DisplayName="LogFile" FileExtension=".log" LanguageDefinitionVersion="1.0">
+
+<StaticToken TokenType="Variable" Case="Insensitive">
+  Error Warning
+</StaticToken>
+
+<StaticToken TokenType="Number" Case="Insensitive">
+  Installed
+</StaticToken>
+</ISESteroidsLanguage>
